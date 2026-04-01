@@ -1,8 +1,8 @@
 #pragma once
 
 // split_str.h
-#ifndef GUARD_split_h
-#define GUARD_split_h
+#ifndef GUARD_split_str_h
+#define GUARD_split_str_h
 
 #include <vector>
 #include <string>
