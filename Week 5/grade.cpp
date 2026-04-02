@@ -3,9 +3,11 @@
 #include <list>
 #include <vector>
 #include <stdexcept>
-#include "Student_info.h"
+// #include "Student_info.h"
 #include "grade.h"
 #include "median.h"
+
+using std::list; using std::vector;
 
 // 중간고사 점수, 기말고사 점수, 과제 점수의 벡터로 학생의 종합
 // 점수 를 구함. 이 함수는 인수를 복사하지 않고 median 함수가
@@ -62,7 +64,7 @@ list<Student_info> extract_fails(list<Student_info>& students) {
 	list <Student_info> fail;
 	list <Student_info>::iterator iter = students.begin();
 
-	
+		
 	while (iter != students.end()) {
 		if (fgrade(*iter)) {
 			fail.push_back(*iter);

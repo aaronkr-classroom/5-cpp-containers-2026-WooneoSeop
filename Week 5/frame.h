@@ -1,8 +1,8 @@
 #pragma once
 // frame.h
 
-#ifndef GUARD_split_h
-#define GUARD_split_h
+#ifndef GUARD_frame_h
+#define GUARD_frame_h
 
 #include <vector>
 #include <string>
