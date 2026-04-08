@@ -1,15 +1,12 @@
 #pragma once
 
 // sp.h
-#ifndef GUARD_split_h
-#define GUARD_split_h
+#ifndef GUARD_sp_h
+#define GUARD_sp_h
 
 #include <vector>
 #include <string>
 
-using std::vector; using std::string;
-
-vector<string> sp(const string&); // 문자열 분할 함수
-
+std::vector<std::string> sp(const std::string& s);
 
 #endif
