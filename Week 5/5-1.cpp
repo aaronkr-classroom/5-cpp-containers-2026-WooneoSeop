@@ -23,7 +23,7 @@ bool compareInsensitive(const string& a, const string& b) {
 
 int main() {
 
-    cout << "Enter any string, EOF to quit : ";
+    cout << "Enter string, EOF to quit : ";
     string s;
     vector<Entry> index;
     size_t max_left = 0;
